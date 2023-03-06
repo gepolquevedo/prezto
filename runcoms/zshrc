@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# Include custom personal functions, configs and aliases
+source ~/workspace/dotfiles/common-workflow.zsh
+source ~/workspace/dotfiles/functions.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
