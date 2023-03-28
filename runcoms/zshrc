@@ -18,5 +18,10 @@ source ~/workspace/dotfiles/functions.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Config for zplug
+export ZPLUG_HOME=/home/linuxbrew/.linuxbrew/opt/zplug
+source $ZPLUG_HOME/init.zsh
+
+# Install favoured plugins
 zplug "plugins/git", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions"
