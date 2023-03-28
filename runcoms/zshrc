@@ -17,3 +17,6 @@ source ~/workspace/dotfiles/common-workflow.zsh
 source ~/workspace/dotfiles/functions.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+zplug "plugins/git", from:oh-my-zsh
+zplug "zsh-users/zsh-autosuggestions"
